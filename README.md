@@ -69,3 +69,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+**Documentacion:***
+
+Para la solución al problema parti de la creación del Dockerfile usando la imagen de node.
+
+````
+
+FROM node:latest
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install --production
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+
+````
+
+Una vez creada la imagen de node, lo siguiente fue configurar el pipeline en la carpeta 
+````
+/docker-test/.github/workflows
+````
