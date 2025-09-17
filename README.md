@@ -65,6 +65,7 @@ En él, se puede notar el llamadmo a los secrets creados desde Github como se mu
 
 Una vez configurados los secrets, el paso a seguir fue realizar el push al repositorio remoto y verificar que la actions se ejecute de manera correcta.
 
+<img width="1897" height="499" alt="image" src="https://github.com/user-attachments/assets/ac521a90-72c5-47dd-ad7c-0fdf21a37e25" />
 
 
 
