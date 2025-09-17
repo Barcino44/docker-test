@@ -59,7 +59,11 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/mi-app:latest
 ````
 
-En él, se puede notar el llamadmo a los secrets creados desde Github.
+En él, se puede notar el llamadmo a los secrets creados desde Github como se muestra en la siguiente imágen:
+
+<img width="735" height="176" alt="image" src="https://github.com/user-attachments/assets/4c5cc381-0da7-47de-9b39-297ebc906d94" />
+
+Una vez configurados los secrets, el paso a seguir fue realizar el push al repositorio remoto y verificar que la actions se ejecute de manera correcta.
 
 
 
