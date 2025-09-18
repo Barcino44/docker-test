@@ -59,17 +59,23 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/mi-app:latest
 ````
 
-En él, se puede notar el llamadmo a los secrets creados desde Github como se muestra en la siguiente imágen:
+En él, se puede notar el llamado a los secrets creados desde Github como se muestra en la siguiente imágen:
 
+<p align="center">
 <img width="735" height="176" alt="image" src="https://github.com/user-attachments/assets/4c5cc381-0da7-47de-9b39-297ebc906d94" />
+</p>
 
 Una vez configurados los secrets, el paso a seguir fue realizar el push al repositorio remoto y verificar que la actions se ejecute de manera correcta.
 
+<p align="center">
 <img width="1897" height="499" alt="image" src="https://github.com/user-attachments/assets/ac521a90-72c5-47dd-ad7c-0fdf21a37e25" />
+</p>
 
 Y por su parte se realiza el push a la imagen de Dockerhub.
 
+<p align="center">
 <img width="886" height="567" alt="image" src="https://github.com/user-attachments/assets/19137087-23ac-4af6-9fb0-1afe7773489f" />
+</p>
 
 
 
