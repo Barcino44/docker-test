@@ -71,7 +71,7 @@ Una vez configurados los secrets, el paso a seguir fue realizar el push al repos
 <img width="1897" height="499" alt="image" src="https://github.com/user-attachments/assets/ac521a90-72c5-47dd-ad7c-0fdf21a37e25" />
 </p>
 
-Y por su parte se realiza el push a la imagen de Dockerhub.
+Y por su parte se realiza el push a la imagen hacia Dockerhub.
 
 <p align="center">
 <img width="886" height="567" alt="image" src="https://github.com/user-attachments/assets/19137087-23ac-4af6-9fb0-1afe7773489f" />
