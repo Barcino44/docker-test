@@ -1,4 +1,4 @@
-**Documentación:**
+## Documentación
 
 Para la solución al problema partí de la creación del Dockerfile usando la imagen de node.
 
